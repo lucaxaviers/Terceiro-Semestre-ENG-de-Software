@@ -15,6 +15,7 @@ class Pessoa {
     print('Altura ${altura}');
   }
 }
+
 // Nas Sub Classes voce tem acesso aos Metodos da Super Classe, bastar colocar "super.nomeMetodo";
 class Estudante extends Pessoa {
   String? registroAcademico;
@@ -49,9 +50,9 @@ void main(){
   e1.altura = 1.65;
   e1.registroAcademico = '25000508';
   
-  
   p1.imprimir();
   p2.imprimir();
   e1.imprimir();
   
 }
+
