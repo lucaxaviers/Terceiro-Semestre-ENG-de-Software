@@ -31,7 +31,7 @@ class Cat extends Animal{
   }
 }
 
-// 🦆 PATO
+// PATO
 class Duck extends Animal{
   @override
   void show(){
@@ -43,7 +43,7 @@ class Duck extends Animal{
   }
 }
 
-// 🐴 CAVALO
+// CAVALO
 class Horse extends Animal{
   @override
   void show(){
