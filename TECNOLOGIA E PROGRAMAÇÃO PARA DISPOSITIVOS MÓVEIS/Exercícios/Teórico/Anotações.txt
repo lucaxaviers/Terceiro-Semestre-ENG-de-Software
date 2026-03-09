@@ -16,4 +16,16 @@ Depois de entender essa visão geral, passe a analisar os detalhes do código, c
 
 6 - Entender o código é um exercício de desconforto, não se preocupe, siga em frente.
 
-EXERCÍCIO: ENTENDER O CÓDIGO
+
+
+Exercício Teórico
+
+- Ler e explicar a arquitetura do arquivo, identificando como as classes e módulos se organizam.
+
+- Identificar as responsabilidades de cada classe: Key, Display, CalculatorEngine e CalculatorController.
+
+- Entender o uso de encapsulamento (atributos/métodos com _) e a aplicação de final e const.
+
+- Compreender o fluxo de entrada de teclas até a geração do resultado.
+
+- Realizar pequenas evoluções ou ajustes no código sem comprometer seu funcionamento.
