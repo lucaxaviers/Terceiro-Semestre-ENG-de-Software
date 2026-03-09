@@ -1,0 +1,19 @@
+PRÁTICA DE LEITURA
+
+Não comece lendo os algoritmos diretamente. Primeiro observe a estrutura do projeto: veja quais bibliotecas estão sendo usadas, quais módulos existem e quais funções principais aparecem.
+
+Depois de entender essa visão geral, passe a analisar os detalhes do código, como a lógica dos algoritmos e a implementação de cada função.
+
+1 - Não partir do detalhe. Iniciar lendo os nomes das classes, interfaces, enums com a finalidade de entender suas responsabilidades, o que e não como (Separar o que do como). Deve saber onde e como criar.
+
+2 - Um panorama geral de responsabilidades.
+
+3 - Antes de entrar no detalhamento das classes, executar o código para entender o funcionamento/uso das classes expostas (Entender o que são classes expostas).
+
+4 - Separação de contexto de tarefa (pegar com alguém o resto).
+
+5 - Do fácil ao difícil, explorando classes menores/fáceis primeiro, de preferência as mais fáceis. Existem classes curtas com pouco código que são complexas. Então usem a técnica: as fáceis e menores primeiro.
+
+6 - Entender o código é um exercício de desconforto, não se preocupe, siga em frente.
+
+EXERCÍCIO: ENTENDER O CÓDIGO
