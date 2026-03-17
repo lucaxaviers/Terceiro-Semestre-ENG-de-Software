@@ -1,4 +1,4 @@
-AULA 16-03 _ CHATGPT
+AULA 16-03 
 
 Nome do projeto (Project name): Em Flutter, deve ser sempre em letras minúsculas.
 Ex: helloworld.
