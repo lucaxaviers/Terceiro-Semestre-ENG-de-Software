@@ -1,0 +1,22 @@
+Matéria da Prova (P1) - 30/03
+    Tema da Prova: Introdução POO
+	- Classes
+	- Instâncias
+	- Métodos
+	- Atributos
+	- Classes Abstratas
+	- Construtores
+	- Separação de Artefatos(Atributos e métodos privados)
+	- Aula de Hoje(16/03)
+
+Aula 16/03: 
+	Flutter: Estrutura de um projeto flutter
+
+	Widgets: (Statefull e Stateless) e como entender
+	o paradigma declarativo de Telas
+
+	Entender: Estrutura de um aplicativo em Flutter e
+	Entender Estado de Widget e oque é Widget
+	
+
+		

@@ -1,0 +1,86 @@
+AULA 16-03 _ CHATGPT
+
+Nome do projeto (Project name): Em Flutter, deve ser sempre em letras minúsculas.
+Ex: helloworld.
+
+Tipo de projeto (Project type): Application
+
+---
+
+Anotações
+
+1. Diretório mais importante: lib
+   - É aqui que o código Dart está.
+
+2. Diretórios android, ios e web
+   - Contêm os projetos nativos das respectivas plataformas.
+
+3. Diretório .idea (exclusivo do Android Studio)
+   - Pertence ao IDE, não faz parte do projeto Flutter.
+
+4. Diretório test
+   - Local onde são colocados os testes unitários da aplicação.
+
+5. Arquivo pubspec.yaml
+   - Especificações de publicação do projeto.
+   - Dependências (dependencies): plugins necessários para o projeto funcionar.
+   - Dev dependencies (dev_dependencies):
+     - flutter_test: permite rodar os testes no diretório test.
+     - flutter_lints (linter):
+       - Assim como Python tem a PEP 8, o Flutter possui recursos de análise estática de código.
+       - Ajuda a manter boas práticas, coesão e padrões de código.
+       - Pacote indispensável para trabalho profissional com Flutter.
+
+6. Arquivo analysis_options
+   - Responsável pelo ajuste fino de como o linter funcionará.
+   - Pode ser mais suave ou mais agressivo.
+
+7. Ponto de entrada do app
+   - Ao gerar um app hello world no Flutter, todo o código Dart fica no arquivo main.dart.
+   - Toda aplicação em Flutter tem o ponto de entrada main.
+   - Dentro do main, há a chamada da função nativa do Flutter runApp.
+   - O parâmetro de runApp é uma instância de um widget (preferencialmente StatelessWidget).
+   - runApp espera uma classe que representa a aplicação toda; é const porque é imutável.
+
+8. Contexto de execução
+   - Uma aplicação Flutter é uma árvore de widgets.
+   - O contexto gerencia essa árvore.
+   - Gerenciar: cuidar do estado de cada widget na aplicação.
+   - Todo widget tem um método build, usado para construí-lo e colocá-lo na árvore junto com os demais.
+
+9. Método build no app de exemplo
+   - Retorna um widget do tipo MaterialApp.
+   - É uma instância da classe MaterialApp.
+   - No método build na classe principal que representa a aplicação criamos uma aplicação reativamente e informamos uma instancia de quem será a tela principal (parâmetro home)
+
+10. Quando você usa o paradigma reativo declarativo você economiza memória, por isso não mantemos instancias fora da declaração 
+
+---
+
+Estrutura padrão de um app Flutter
+
+- Uma classe que representa a própria aplicação.
+- Uma classe que representa uma tela.
+- Uma classe que representa o estado de uma tela separadamente.
+
+---
+
+Dicas
+
+- Se todos na equipe usarem Android Studio (AS), idealmente não enviar o .idea para o repositório (configuração pessoal).
+- Testar antes de escrever código.
+- Nunca esquecer de modificar o README para descrever o projeto.
+
+---
+
+Pergunta
+
+- Por que não colocar a última versão do Flutter no environment?
+
+Resposta:
+- Colocar apenas a última versão pode causar problemas de compatibilidade.
+- Nem todas as bibliotecas (packages) ou ferramentas suportam imediatamente a versão mais recente.
+- Em projetos em equipe, nem todos os desenvolvedores usam a mesma versão.
+- Por isso, normalmente define-se um intervalo de versões no environment para garantir compatibilidade e estabilidade.
+
+
