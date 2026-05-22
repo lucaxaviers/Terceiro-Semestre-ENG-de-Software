@@ -1,0 +1,105 @@
+var = o Dart descobre automaticamente o tipo da variável
+
+final = valor definido uma vez e não pode mudar
+
+const = valor constante conhecido em tempo de compilação
+
+String = texto
+
+int = número inteiro
+
+double = número decimal
+
+bool = true ou false
+
+dynamic = aceita qualquer tipo sem verificar na hora
+
+Object = aceita qualquer tipo, mas com mais segurança que dynamic
+
+List = coleção/lista de valores
+
+Map = estrutura chave:valor
+
+.length = quantidade de itens da lista ou tamanho do texto
+
+.isEmpty = verifica se está vazio
+
+.isNotEmpty = verifica se NÃO está vazio
+
+.first = primeiro item da lista
+
+.last = último item da lista
+
+.length - 1 = último índice da lista
+
+.add() = adiciona um item na lista
+
+.addAll() = adiciona vários itens na lista
+
+.remove() = remove um item específico
+
+.removeWhere() = remove itens com condição
+
+.contains() = verifica se existe na lista (true/false)
+
+.clear() = limpa toda a lista
+
+.sort() = ordena a lista
+
+.reversed = inverte a ordem da lista
+
+.toList() = transforma em lista
+
+.toString() = transforma em texto
+
+.toInt() = transforma em inteiro
+
+.toDouble() = transforma em decimal
+
+.toUpperCase() = transforma texto em MAIÚSCULO
+
+.toLowerCase() = transforma texto em minúsculo
+
+.trim() = remove espaços no começo e fim
+
+.split() = quebra texto em partes
+
+.join() = junta itens da lista em texto
+
+.asType / as = força um tipo específico
+
+== = comparação
+
+= = atribuição de valor
+
++= = soma e atribui
+
+-= = subtrai e atribui
+
+++ = incrementa +1
+
+-- = decrementa -1
+
+if = condição
+
+else = caso contrário
+
+for = repetição
+
+return = devolve um valor
+
+void = função sem retorno
+
+class = cria um molde/estrutura de objeto
+
+this = referência ao próprio objeto
+
+new = cria objeto (opcional no Dart moderno)
+
+[] = acessa índice da lista ou chave do Map
+
+{} = bloco de código ou Map
+
+() = chamada de função/método
+
+=> = retorno rápido de função
